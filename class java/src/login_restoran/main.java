@@ -8,7 +8,7 @@ public class main {
         login customer = new login();
         do {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("======== LOGIN ========");
+            System.out.println("========= LOGIN =========");
             System.out.print(" Masukan Username : ");user = scanner.nextLine();
             System.out.print(" Masukan Password : ");password = scanner.nextLine();
 
