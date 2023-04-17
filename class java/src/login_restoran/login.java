@@ -3,9 +3,7 @@ package login_restoran;
 public class login {
 
     private String username_admin,password_admin,
-
                     username_customer,password_customer;
-
 
     public login(){
         username_admin = "admin";
