@@ -56,7 +56,7 @@ public class admin {
             }
         }
     }
-    ////////////////////////////////namarestaurant
+
     public static void viewMenu(){
         System.out.println("===== RESTAURANT =====");
         for (String namaRestaurant : restaurants.keySet()){
