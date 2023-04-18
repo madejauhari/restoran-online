@@ -1,15 +1,19 @@
 package login_restoran;
 
+import java.util.ArrayList;
+
 public class restaurant {
 
     private int id;
     private String nama;
     private String alamat;
+    private ArrayList<menu> menus;
 
     public restaurant(int id, String nama, String alamat) {
         this.id = id;
         this.nama = nama;
         this.alamat = alamat;
+        this.menus = new ArrayList<>();
     }
 
     public int getId() {
@@ -17,7 +21,15 @@ public class restaurant {
         return id;
     }
 
-    public void setId(int id) { this.id = id; }
+    public ArrayList<menu> getMenus() {
+        return menus;
+    }public void setMenus(menu menu) {
+        this.menus.add(menu);
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getNama() {
         setNama(nama);
